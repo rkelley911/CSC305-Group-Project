@@ -8,6 +8,6 @@
  *
  * @author Ryan Kelley, Dan Coburn, Jake Ward, Marcos Martinez, Nelson Herrera, Michelle Monet
  */
-public class Ghosts {
+public class Ghosts implements DrawableInterface{
     
 }

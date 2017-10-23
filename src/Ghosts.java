@@ -10,4 +10,6 @@
  */
 public class Ghosts {
     
+    int test = 0;
+    
 }

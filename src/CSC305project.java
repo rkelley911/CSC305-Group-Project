@@ -22,7 +22,7 @@ public class CSC305project {
         projectWindow.setTitle("Pacman: Remade");
         
         // This is the panel for this Project
-        ProjectPanel playPanel = new ProjectPanel(); 
+        ProjectPanel playPanel = new ProjectPanel();
         projectWindow.add(playPanel); 
         
         projectWindow.setVisible(true); 

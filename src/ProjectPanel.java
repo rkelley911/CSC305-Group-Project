@@ -25,7 +25,7 @@ public class ProjectPanel extends JPanel{
     @Override
     public void paintComponent(Graphics pen) {
         super.paintComponent(pen);
-        student1.draw(pen);
+        Pacman.draw(pen);
         creature1.draw(pen);
         // tests if first user choice has happened yet
         // wanted to display student and creature in background

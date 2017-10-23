@@ -10,4 +10,6 @@
  */
 public class Pacman implements DrawableInterface{
     
+    int test = 0;
+    
 }

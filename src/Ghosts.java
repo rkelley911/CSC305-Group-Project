@@ -10,4 +10,6 @@
  */
 public class Ghosts implements DrawableInterface{
     
+    int test = 0;
+    
 }

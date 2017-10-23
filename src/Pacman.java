@@ -10,4 +10,6 @@
  */
 public class Pacman {
     
+    int test = 0;
+    
 }

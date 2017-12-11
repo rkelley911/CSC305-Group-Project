@@ -10,6 +10,11 @@
 import javax.swing.JFrame;
 
 public class CSC305project {
+    
+  public static void main(String [] args)
+  {
+      Pacman c = new Pacman();
+  } 
 
     /**
      * @param args the command line arguments

@@ -1,8 +1,3 @@
-import java.io.*;
-import java.net.URL;
-import javax.sound.sampled.*;
-
-
 /* This class controls all sound effects*/
 public class GameSounds{
     

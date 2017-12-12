@@ -1,10 +1,5 @@
-import java.awt.*;
-import javax.imageio.*;
 import javax.swing.JPanel;
 import java.lang.Math;
-import java.util.*;
-import java.io.*;
-
 
 /* Both Player and Ghost inherit Mover.  Has generic functions relevant to both*/
 class Mover
@@ -334,7 +329,7 @@ class Player extends Mover
   } 
 }
 
-/* Ghost class controls the ghost. */
+/* Ghost class controls the ghost. Moved to this file*/
 class Ghost extends Mover
 { 
   /* Direction ghost is heading */
@@ -509,6 +504,8 @@ public class Level extends JPanel
 {
   /* Initialize the images*/
   /* For JAR File*/
+  /* Many of these were from old Game Engine/ones that were custom made, need to add new resources from
+  /* new engine and add new paths
   /*
   Image pacmanImage = Toolkit.getDefaultToolkit().getImage(Pacman.class.getResource("img/pacman.jpg"));
   Image pacmanUpImage = Toolkit.getDefaultToolkit().getImage(Pacman.class.getResource("img/pacmanup.jpg")); 
@@ -732,9 +729,7 @@ public class Level extends JPanel
   }
   
   
-  /*  This function draws the board.  The pacman board is really complicated and can only feasibly be done
-      manually.  Whenever I draw a wall, I call updateMap to invalidate those coordinates.  This way the pacman
-      and ghosts know that they can't traverse this area */ 
+  /*  This function draws the board. */ 
   public void drawBoard(Graphics g)
   {
         g.setColor(Color.BLACK);

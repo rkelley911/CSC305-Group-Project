@@ -8,13 +8,8 @@
  *
  * @author Ryan Kelley, Dan Coburn, Jake Ward, Marcos Martinez, Nelson Herrera, Michelle Monet
  */   
-import javax.swing.*;
-import java.awt.event.*;
 import java.awt.geom.Point2D;
 import javax.swing.JApplet;
-import java.awt.*;
-import java.util.*;
-import java.lang.*;
 
 /* This class contains the entire game... most of the game logic is in the Board class but this
    creates the gui and captures mouse and keyboard input, as well as controls the game states */

@@ -2,7 +2,7 @@
  * Represents how the program draws 
  * @author Ryan Kelley, Dan Coburn, Jake Ward, Marcos Martinez, Nelson Herrera, Michelle Monet
  * @version CSC305 Project 1.0
- * 
+ * Note: This interface is most likely not actually going to be needed
  */
 import java.awt.Color;
 import java.awt.Graphics;
